@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		866090E025CBE7DB0017C238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866090DF25CBE7DB0017C238 /* AppDelegate.swift */; };
+		866090E225CBE7DB0017C238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866090E125CBE7DB0017C238 /* SceneDelegate.swift */; };
+		866090E425CBE7DB0017C238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866090E325CBE7DB0017C238 /* ViewController.swift */; };
+		866090E725CBE7DB0017C238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866090E525CBE7DB0017C238 /* Main.storyboard */; };
+		866090E925CBE7DC0017C238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866090E825CBE7DC0017C238 /* Assets.xcassets */; };
+		866090EC25CBE7DC0017C238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866090EA25CBE7DC0017C238 /* LaunchScreen.storyboard */; };
+		866090F725CBE7DC0017C238 /* LoveTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866090F625CBE7DC0017C238 /* LoveTalkTests.swift */; };
+		8660910225CBE7DC0017C238 /* LoveTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8660910125CBE7DC0017C238 /* LoveTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		866090F325CBE7DC0017C238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866090D425CBE7DB0017C238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866090DB25CBE7DB0017C238;
+			remoteInfo = LoveTalk;
+		};
+		866090FE25CBE7DC0017C238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 866090D425CBE7DB0017C238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866090DB25CBE7DB0017C238;
+			remoteInfo = LoveTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		866090DC25CBE7DB0017C238 /* LoveTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866090DF25CBE7DB0017C238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		866090E125CBE7DB0017C238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		866090E325CBE7DB0017C238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		866090E625CBE7DB0017C238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866090E825CBE7DC0017C238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		866090EB25CBE7DC0017C238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		866090ED25CBE7DC0017C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866090F225CBE7DC0017C238 /* LoveTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		866090F625CBE7DC0017C238 /* LoveTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveTalkTests.swift; sourceTree = "<group>"; };
+		866090F825CBE7DC0017C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866090FD25CBE7DC0017C238 /* LoveTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8660910125CBE7DC0017C238 /* LoveTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveTalkUITests.swift; sourceTree = "<group>"; };
+		8660910325CBE7DC0017C238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866090D925CBE7DB0017C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090EF25CBE7DC0017C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090FA25CBE7DC0017C238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		866090D325CBE7DB0017C238 = {
+			isa = PBXGroup;
+			children = (
+				866090DE25CBE7DB0017C238 /* LoveTalk */,
+				866090F525CBE7DC0017C238 /* LoveTalkTests */,
+				8660910025CBE7DC0017C238 /* LoveTalkUITests */,
+				866090DD25CBE7DB0017C238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		866090DD25CBE7DB0017C238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866090DC25CBE7DB0017C238 /* LoveTalk.app */,
+				866090F225CBE7DC0017C238 /* LoveTalkTests.xctest */,
+				866090FD25CBE7DC0017C238 /* LoveTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866090DE25CBE7DB0017C238 /* LoveTalk */ = {
+			isa = PBXGroup;
+			children = (
+				866090DF25CBE7DB0017C238 /* AppDelegate.swift */,
+				866090E125CBE7DB0017C238 /* SceneDelegate.swift */,
+				866090E325CBE7DB0017C238 /* ViewController.swift */,
+				866090E525CBE7DB0017C238 /* Main.storyboard */,
+				866090E825CBE7DC0017C238 /* Assets.xcassets */,
+				866090EA25CBE7DC0017C238 /* LaunchScreen.storyboard */,
+				866090ED25CBE7DC0017C238 /* Info.plist */,
+			);
+			path = LoveTalk;
+			sourceTree = "<group>";
+		};
+		866090F525CBE7DC0017C238 /* LoveTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				866090F625CBE7DC0017C238 /* LoveTalkTests.swift */,
+				866090F825CBE7DC0017C238 /* Info.plist */,
+			);
+			path = LoveTalkTests;
+			sourceTree = "<group>";
+		};
+		8660910025CBE7DC0017C238 /* LoveTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8660910125CBE7DC0017C238 /* LoveTalkUITests.swift */,
+				8660910325CBE7DC0017C238 /* Info.plist */,
+			);
+			path = LoveTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866090DB25CBE7DB0017C238 /* LoveTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8660910625CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalk" */;
+			buildPhases = (
+				866090D825CBE7DB0017C238 /* Sources */,
+				866090D925CBE7DB0017C238 /* Frameworks */,
+				866090DA25CBE7DB0017C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveTalk;
+			productName = LoveTalk;
+			productReference = 866090DC25CBE7DB0017C238 /* LoveTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		866090F125CBE7DC0017C238 /* LoveTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8660910925CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalkTests" */;
+			buildPhases = (
+				866090EE25CBE7DC0017C238 /* Sources */,
+				866090EF25CBE7DC0017C238 /* Frameworks */,
+				866090F025CBE7DC0017C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866090F425CBE7DC0017C238 /* PBXTargetDependency */,
+			);
+			name = LoveTalkTests;
+			productName = LoveTalkTests;
+			productReference = 866090F225CBE7DC0017C238 /* LoveTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		866090FC25CBE7DC0017C238 /* LoveTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8660910C25CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalkUITests" */;
+			buildPhases = (
+				866090F925CBE7DC0017C238 /* Sources */,
+				866090FA25CBE7DC0017C238 /* Frameworks */,
+				866090FB25CBE7DC0017C238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866090FF25CBE7DC0017C238 /* PBXTargetDependency */,
+			);
+			name = LoveTalkUITests;
+			productName = LoveTalkUITests;
+			productReference = 866090FD25CBE7DC0017C238 /* LoveTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866090D425CBE7DB0017C238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					866090DB25CBE7DB0017C238 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					866090F125CBE7DC0017C238 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 866090DB25CBE7DB0017C238;
+					};
+					866090FC25CBE7DC0017C238 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 866090DB25CBE7DB0017C238;
+					};
+				};
+			};
+			buildConfigurationList = 866090D725CBE7DB0017C238 /* Build configuration list for PBXProject "LoveTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866090D325CBE7DB0017C238;
+			productRefGroup = 866090DD25CBE7DB0017C238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866090DB25CBE7DB0017C238 /* LoveTalk */,
+				866090F125CBE7DC0017C238 /* LoveTalkTests */,
+				866090FC25CBE7DC0017C238 /* LoveTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866090DA25CBE7DB0017C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866090EC25CBE7DC0017C238 /* LaunchScreen.storyboard in Resources */,
+				866090E925CBE7DC0017C238 /* Assets.xcassets in Resources */,
+				866090E725CBE7DB0017C238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090F025CBE7DC0017C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090FB25CBE7DC0017C238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866090D825CBE7DB0017C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866090E425CBE7DB0017C238 /* ViewController.swift in Sources */,
+				866090E025CBE7DB0017C238 /* AppDelegate.swift in Sources */,
+				866090E225CBE7DB0017C238 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090EE25CBE7DC0017C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866090F725CBE7DC0017C238 /* LoveTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866090F925CBE7DC0017C238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8660910225CBE7DC0017C238 /* LoveTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		866090F425CBE7DC0017C238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866090DB25CBE7DB0017C238 /* LoveTalk */;
+			targetProxy = 866090F325CBE7DC0017C238 /* PBXContainerItemProxy */;
+		};
+		866090FF25CBE7DC0017C238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866090DB25CBE7DB0017C238 /* LoveTalk */;
+			targetProxy = 866090FE25CBE7DC0017C238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		866090E525CBE7DB0017C238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866090E625CBE7DB0017C238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		866090EA25CBE7DC0017C238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				866090EB25CBE7DC0017C238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8660910425CBE7DC0017C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8660910525CBE7DC0017C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8660910725CBE7DC0017C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8660910825CBE7DC0017C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8660910A25CBE7DC0017C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveTalk.app/LoveTalk";
+			};
+			name = Debug;
+		};
+		8660910B25CBE7DC0017C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveTalk.app/LoveTalk";
+			};
+			name = Release;
+		};
+		8660910D25CBE7DC0017C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveTalk;
+			};
+			name = Debug;
+		};
+		8660910E25CBE7DC0017C238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoveTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dora0204.LoveTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866090D725CBE7DB0017C238 /* Build configuration list for PBXProject "LoveTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8660910425CBE7DC0017C238 /* Debug */,
+				8660910525CBE7DC0017C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8660910625CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8660910725CBE7DC0017C238 /* Debug */,
+				8660910825CBE7DC0017C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8660910925CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8660910A25CBE7DC0017C238 /* Debug */,
+				8660910B25CBE7DC0017C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8660910C25CBE7DC0017C238 /* Build configuration list for PBXNativeTarget "LoveTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8660910D25CBE7DC0017C238 /* Debug */,
+				8660910E25CBE7DC0017C238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 866090D425CBE7DB0017C238 /* Project object */;
+}
